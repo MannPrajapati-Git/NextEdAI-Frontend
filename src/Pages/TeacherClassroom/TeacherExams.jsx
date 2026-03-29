@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { examAPI } from "../../utils/api";
-import NotificationModal from "../../Components/NotificationModal/NotificationModal";
-import ConfirmationModal from "../../Components/ConfirmationModal/ConfirmationModal";
+import NotificationModal from "../../components/NotificationModal/NotificationModal";
+import ConfirmationModal from "../../components/ConfirmationModal/ConfirmationModal";
 import "./TeacherExams.css";
 
 const Icons = {
@@ -200,7 +200,7 @@ const TeacherExams = ({ classroom, teacherName }) => {
 };
 
 // ==========================================
-// SUB-COMPONENTS
+// SUB-components
 // ==========================================
 
 const CreateAIExamForm = ({ classroom, onBack, onGenerated }) => {

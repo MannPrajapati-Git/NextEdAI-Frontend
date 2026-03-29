@@ -731,7 +731,7 @@ const AiTutor = () => {
           </div>
         </div>
 
-        {/* History Sidebar Components */}
+        {/* History Sidebar components */}
         <div className={`history-overlay ${showHistory ? 'active' : ''}`} onClick={() => setShowHistory(false)}></div>
         <div className={`history-sidebar ${showHistory ? 'open' : ''}`}>
           <div className="sidebar-header">

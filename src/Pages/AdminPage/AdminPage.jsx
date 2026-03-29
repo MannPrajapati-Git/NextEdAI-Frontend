@@ -4,8 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import './AdminPage.css';
 import { adminAPI, examAPI, postAPI } from '../../utils/api';
 import { showToast } from '../../utils/CustomToast';
-import ConfirmationModal from '../../Components/ConfirmationModal/ConfirmationModal';
-import InputModal from '../../Components/ConfirmationModal/InputModal';
+import ConfirmationModal from '../../components/ConfirmationModal/ConfirmationModal';
+import InputModal from '../../components/ConfirmationModal/InputModal';
 import { socket } from '../../utils/socket';
 
 const AdminPage = () => {

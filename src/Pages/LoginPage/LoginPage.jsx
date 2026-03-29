@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../../components/Navbar/Navbar';
-import NotificationModal from '../../Components/NotificationModal/NotificationModal';
+import NotificationModal from '../../components/NotificationModal/NotificationModal';
 import { authAPI } from '../../utils/api';
 import './LoginPage.css';
 import { showToast } from '../../utils/CustomToast';
