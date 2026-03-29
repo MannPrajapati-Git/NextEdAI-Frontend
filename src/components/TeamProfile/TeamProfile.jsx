@@ -7,7 +7,7 @@ const ProfileCard = () => {
       name: "Mann Prajapati",
       role: "Team Leader & MernStack Developer",
       description: "Mann Prajapati leads NextEd AI with strong technical vision, driving full-stack development, AI integration, and scalable architecture while ensuring innovation, performance optimization, and seamless user experiences.",
-      image: "/mann.jpeg",
+      image: "/src/assets/mann.jpeg",
       socialLinks: [
         { icon: "linkedin", href: "https://www.linkedin.com/in/prajapatimann2502/" },
         { icon: "instagram", href: "https://www.instagram.com/mannprajapati.ai/" },
@@ -18,7 +18,7 @@ const ProfileCard = () => {
       name: "Heli Gandhi",
       role: "Frontend Developer & UI/UX Designer",
       description: "Heli Gandhi designs intuitive and responsive interfaces for NextEd AI, transforming complex concepts into engaging digital experiences through structured components, modern UI practices, and user-centered creativity.",
-      image: "/heli.jpeg",
+      image: "/src/assets/heli.jpeg",
       socialLinks: [
         { icon: "linkedin", href: "https://www.linkedin.com/in/heligandhi4114" },
         { icon: "instagram", href: "https://www.instagram.com/_4114heli/" },
@@ -29,7 +29,7 @@ const ProfileCard = () => {
       name: "Divyang Solanki",
       role: "Backend Developer",
       description: "Divyang Solanki develops secure backend systems for NextEd AI, building robust APIs, managing databases efficiently, and optimizing server performance to deliver reliable, scalable, and high-quality learning platforms.",
-      image: "/divyang.jpeg",
+      image: "/src/assets/divyang.jpeg",
       socialLinks: [
         { icon: "linkedin", href: "https://www.linkedin.com/in/divyang-solanki-b5037a2a3/" },
         { icon: "instagram", href: "https://www.instagram.com/divyang__solanki__04/" },

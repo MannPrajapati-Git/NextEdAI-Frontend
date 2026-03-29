@@ -28,7 +28,7 @@ const RoleIntroBanner = () => {
             <div className="role-icon-wrapper">
               <div className="role-icon">
                 <img 
-                    src="./public/TeacherRolee.jpg" 
+                    src="/src/assets/TeacherRolee.jpg" 
                     alt="Teacher Role" 
                     style={{width:'100%', height:'100%', objectFit:'cover', borderRadius:'20px'}}
                 />
@@ -87,7 +87,7 @@ const RoleIntroBanner = () => {
             <div className="role-icon-wrapper">
               <div className="role-icon">
                  <img 
-                    src="./public/StudentRole.jpg" 
+                    src="/src/assets/StudentRole.jpg" 
                     alt="Student Role" 
                     style={{width:'100%', height:'100%', objectFit:'cover', borderRadius:'20px'}}
                  />
@@ -145,7 +145,7 @@ const RoleIntroBanner = () => {
             <div className="role-icon-wrapper">
               <div className="role-icon">
                  <img 
-                    src="./public/AdminRole.jpg" 
+                    src="/src/assets/AdminRole.jpg" 
                     alt="Admin Role" 
                     style={{width:'100%', height:'100%', objectFit:'cover', borderRadius:'20px'}}
                  />

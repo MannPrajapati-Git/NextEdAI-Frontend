@@ -9,43 +9,43 @@ const slidesData = [
     id: 0,
     title: "Smart Classroom Management",
     description: "Centralized platform for managing classes, assignments, and real-time progress tracking.",
-    image: "./public/smartClassroom.jpg"
+    image: "/src/assets/smartClassroom.jpg"
   },
   {
     id: 1,
     title: "Online Exams & Auto Evaluation",
     description: "Create and conduct adaptive online exams with intelligent auto-grading and analytics.",
-    image: "./public/exams.jpg"
+    image: "/src/assets/exams.jpg"
   },
   {
     id: 2,
     title: "AI Study Chatbot",
     description: "Get instant academic answers and doubt resolution 24/7 with our intelligent chatbot.",
-    image: "./public/chatbot.jpg"
+    image: "/src/assets/chatbot.jpg"
   },
   {
     id: 3,
     title: "Personalized Study Tips",
     description: "Receive AI-driven study recommendations tailored to your unique learning style.",
-    image: "./public/studytips.jpeg"
+    image: "/src/assets/studytips.jpeg"
   },
   {
     id: 4,
     title: "Voice-Based AI Tutor",
     description: "Learn naturally through interactive voice conversations with your personal tutor.",
-    image: "./public/voicetutor.jpg"
+    image: "/src/assets/voicetutor.jpg"
   },
   {
     id: 5,
     title: "Role-Based Dashboards",
     description: "Customized interfaces for students, teachers, and admins with relevant insights.",
-    image: "./public/dashboards.jpg"
+    image: "/src/assets/dashboards.jpg"
   },
   {
     id: 6,
     title: "Vmeet Virtual Meetings",
     description: "High-quality, integrated video conferencing designed specifically for digital learning.",
-    image: "./public/vmeet.jpg"
+    image: "/src/assets/vmeet.jpg"
   }
 ];
 

@@ -35,7 +35,7 @@ const AboutProjectBanner = ({ config = {}, onCtaClick }) => {
         {/* LEFT - Logo */}
         <div className="about-visual">
           <div className="logo-container">
-            <img src="/Logo.jpg" alt="NextEd AI Logo" />
+            <img src="/src/assets/Logo.jpg" alt="NextEd AI Logo" />
           </div>
         </div>
 

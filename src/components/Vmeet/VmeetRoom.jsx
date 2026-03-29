@@ -388,7 +388,7 @@ const VmeetRoom = () => {
     return (
         <div className="vmeet-room-inner">
             <header className="room-header">
-                <div className="header-left"><img src="/Logo.jpg" alt="Logo" className="room-logo" /></div>
+                <div className="header-left"><img src="/src/assets/Logo.jpg" alt="Logo" className="room-logo" /></div>
                 <div className="header-center">
                     <div className="meeting-title-pill">
                         <button className="back-btn" onClick={() => setIsConfirmingLeave(true)}>
