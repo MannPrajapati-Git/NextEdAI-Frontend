@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "../../assets/Logo.jpg";
 import "./AboutProjectBanner.css";
 import { useNavigate } from "react-router-dom";
 
@@ -35,7 +36,7 @@ const AboutProjectBanner = ({ config = {}, onCtaClick }) => {
         {/* LEFT - Logo */}
         <div className="about-visual">
           <div className="logo-container">
-            <img src="/src/assets/Logo.jpg" alt="NextEd AI Logo" />
+            <img src={Logo} alt="NextEd AI Logo" />
           </div>
         </div>
 

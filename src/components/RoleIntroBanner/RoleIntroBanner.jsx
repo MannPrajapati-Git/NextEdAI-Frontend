@@ -1,6 +1,11 @@
 import React from "react";
 import "./RoleIntroBanner.css";
 
+// Import role images
+import TeacherRole from "../../assets/TeacherRolee.jpg";
+import StudentRole from "../../assets/StudentRole.jpg";
+import AdminRole from "../../assets/AdminRole.jpg";
+
 const RoleIntroBanner = () => {
  
  
@@ -28,7 +33,7 @@ const RoleIntroBanner = () => {
             <div className="role-icon-wrapper">
               <div className="role-icon">
                 <img 
-                    src="/src/assets/TeacherRolee.jpg" 
+                    src={TeacherRole} 
                     alt="Teacher Role" 
                     style={{width:'100%', height:'100%', objectFit:'cover', borderRadius:'20px'}}
                 />
@@ -87,7 +92,7 @@ const RoleIntroBanner = () => {
             <div className="role-icon-wrapper">
               <div className="role-icon">
                  <img 
-                    src="/src/assets/StudentRole.jpg" 
+                    src={StudentRole} 
                     alt="Student Role" 
                     style={{width:'100%', height:'100%', objectFit:'cover', borderRadius:'20px'}}
                  />
@@ -145,7 +150,7 @@ const RoleIntroBanner = () => {
             <div className="role-icon-wrapper">
               <div className="role-icon">
                  <img 
-                    src="/src/assets/AdminRole.jpg" 
+                    src={AdminRole} 
                     alt="Admin Role" 
                     style={{width:'100%', height:'100%', objectFit:'cover', borderRadius:'20px'}}
                  />

@@ -4,48 +4,57 @@ import SignupModal from "../SignupModal/SignupModal";
 import NotificationModal from "../NotificationModal/NotificationModal";
 import "./HeroBanner.css";
 
+// Import slide images
+import smartClassroom from "../../assets/smartClassroom.jpg";
+import exams from "../../assets/exams.jpg";
+import chatbot from "../../assets/chatbot.jpg";
+import studytips from "../../assets/studytips.jpeg";
+import voicetutor from "../../assets/voicetutor.jpg";
+import dashboards from "../../assets/dashboards.jpg";
+import vmeet from "../../assets/vmeet.jpg";
+
 const slidesData = [
   {
     id: 0,
     title: "Smart Classroom Management",
     description: "Centralized platform for managing classes, assignments, and real-time progress tracking.",
-    image: "/src/assets/smartClassroom.jpg"
+    image: smartClassroom
   },
   {
     id: 1,
     title: "Online Exams & Auto Evaluation",
     description: "Create and conduct adaptive online exams with intelligent auto-grading and analytics.",
-    image: "/src/assets/exams.jpg"
+    image: exams
   },
   {
     id: 2,
     title: "AI Study Chatbot",
     description: "Get instant academic answers and doubt resolution 24/7 with our intelligent chatbot.",
-    image: "/src/assets/chatbot.jpg"
+    image: chatbot
   },
   {
     id: 3,
     title: "Personalized Study Tips",
     description: "Receive AI-driven study recommendations tailored to your unique learning style.",
-    image: "/src/assets/studytips.jpeg"
+    image: studytips
   },
   {
     id: 4,
     title: "Voice-Based AI Tutor",
     description: "Learn naturally through interactive voice conversations with your personal tutor.",
-    image: "/src/assets/voicetutor.jpg"
+    image: voicetutor
   },
   {
     id: 5,
     title: "Role-Based Dashboards",
     description: "Customized interfaces for students, teachers, and admins with relevant insights.",
-    image: "/src/assets/dashboards.jpg"
+    image: dashboards
   },
   {
     id: 6,
     title: "Vmeet Virtual Meetings",
     description: "High-quality, integrated video conferencing designed specifically for digital learning.",
-    image: "/src/assets/vmeet.jpg"
+    image: vmeet
   }
 ];
 

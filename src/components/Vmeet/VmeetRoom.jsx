@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { connectSocket, pusher } from '../../utils/socket';
 import ConfirmationModal from '../ConfirmationModal/ConfirmationModal';
+import Logo from '../../assets/Logo.jpg';
 import './VmeetRoom.css';
 
 const ICE_SERVERS = {
@@ -388,7 +389,7 @@ const VmeetRoom = () => {
     return (
         <div className="vmeet-room-inner">
             <header className="room-header">
-                <div className="header-left"><img src="/src/assets/Logo.jpg" alt="Logo" className="room-logo" /></div>
+                <div className="header-left"><img src={Logo} alt="Logo" className="room-logo" /></div>
                 <div className="header-center">
                     <div className="meeting-title-pill">
                         <button className="back-btn" onClick={() => setIsConfirmingLeave(true)}>
